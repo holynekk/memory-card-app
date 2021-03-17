@@ -1,0 +1,82 @@
+@font-face{
+    font-family: 'header-font';
+    src: url('./../fonts/Blood\'n\ Guts.ttf');
+}
+
+html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2C2319; 
+}
+
+h1{
+    color: #EDA115;
+    font-family: 'header-font';
+    font-size: 3rem;
+}
+
+.logo{
+    height: 112px;
+    width: 138px;
+}
+
+.main-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    margin: 30px;
+    transition-duration: 0.3s;
+}
+
+.line{
+    height: 1px;
+    margin: auto 5% auto 5%;
+    background-color: #EDA115;
+}
+
+.score-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+.left-score{
+    margin-right: 40px; 
+}
+
+.right-score{
+    margin-left: 40px;
+}
+
+.board{
+    background-color: #7E7463;
+    margin: 20px 5% auto 5%;
+    padding: 20px;
+    border: 2px solid #EDA115;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-button{
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+.card-button:hover,
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
